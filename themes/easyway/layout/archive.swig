@@ -5,7 +5,8 @@
 		<div id="mainContent">
 			<h2>文章列表：</h2>
 			<ul class="posts-index">
-				{% for post in site.posts %}
+				{% set posts =  page.posts %}
+				{% for post in posts %}
 					{% if post.archives == 'pl' %}
 						<li>
 							<a href="{{ url_for(post.path) }}">{{ post.title }}</a>

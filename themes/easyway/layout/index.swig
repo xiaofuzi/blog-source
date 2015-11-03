@@ -1,10 +1,12 @@
 {% extends './widget/_layout.html' %}
 
+
+
 {% block content %}
 	<div id="pageWrapper">
 		<div id="mainContent">
 			<article class="post">
-				{% for post in site.posts %}
+				{% for post in page.posts %}
 				 	{% if loop.first %}
 						<header>
 							<h1>

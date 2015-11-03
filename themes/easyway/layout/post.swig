@@ -1,5 +1,9 @@
 {% extends './widget/_layout.html' %}
 
+{% block title %}
+	{{ page.title }}
+{% endblock %}
+
 {% block content %}
 	<div id="pageWrapper">
 		<div id="mainContent">

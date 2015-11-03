@@ -7,9 +7,9 @@
 				{% for post in site.posts %}
 				 	{% if loop.first %}
 						<header>
-							<h2>
+							<h1>
 								<a href="{{ post.path }}">{{ post.title }}</a>
-							</h2>
+							</h1>
 							<div class="post-info">
 								<span class="post-time">
 									<a class="permalink" href="">{{ post.date|date('Y-m-d') }}</a>

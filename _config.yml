@@ -39,7 +39,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: true
   tab_replace:
 
@@ -71,4 +71,3 @@ theme: easyway
 deploy:
   type: git
   repo: https://github.com/xiaofuzi/hexo-blog
-  branch: gh-pages

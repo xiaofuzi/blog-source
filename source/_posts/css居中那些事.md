@@ -21,6 +21,8 @@ tags: css
 	<p style="background:green;margin:5px 4px 3px 5px;">设置 p 元素的 4 个外边距：margin:5px 4px 3px 5px;</p>
 </div>
 
+<!-- more -->
+
 ### 定义和用法
 
 margin 简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值。

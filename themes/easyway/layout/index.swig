@@ -7,7 +7,7 @@
 		<div id="mainContent">
 			<article class="post">
 				{% for post in page.posts %}
-				 	{% if loop.first %}
+				 	{% if loop.index < 5 %}	
 						<header>
 							<h1>
 								<a href="{{ post.path }}">{{ post.title }}</a>
@@ -22,7 +22,17 @@
 							</div>
 						</header>
 						<div class="post-body">
-							{{ post.content }}
+							{% if post.excerpt %}
+								<div class="post-excerpt">
+									{{ post.excerpt }}
+								</div>
+								<div class="post-more">
+									{{ post.more }}
+								</div>
+								<a class="postMore" href="javascrpt:;" data-show="false">......查看全文</a>
+							{% else %}
+								{{ post.content }}
+							{% endif %}
 						</div>
 				 	{% endif %}
 				{% endfor %}

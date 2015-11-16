@@ -6,13 +6,11 @@ tags: css
 
 ## 目录
 
-* ## [margin: 0 auto](#CSS_margin_属性)
-* ## [text-algin: center;](#text-align实现水平居中)
-* ## [position:absolute + margin负值](#绝对定位实现垂直居中)
-* ## [position:absolute + translate偏移](#绝对定位且居中元素不知宽高的情况)
-* ## [position:absolute + margin:auto](#绝对定位+margin:auto;实现水平垂直居中)
-
-<br>
+* [margin: 0 auto](#CSS_margin_属性)
+* [text-algin: center;](#text-align实现水平居中)
+* [position:absolute + margin负值](#绝对定位实现垂直居中)
+* [position:absolute + translate偏移](#绝对定位且居中元素不知宽高的情况)
+* [position:absolute + margin:auto](#绝对定位+margin:auto;实现水平垂直居中)
 
 
 ## CSS margin 属性

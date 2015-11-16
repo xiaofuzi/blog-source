@@ -10,11 +10,11 @@
 				 	{% if loop.index < 5 %}	
 						<header>
 							<h1>
-								<a href="{{ post.path }}">{{ post.title }}</a>
+								<a href="{{ url_for(post.path) }}" target="_blank">{{ post.title }}</a>
 							</h1>
 							<div class="post-info">
 								<span class="post-time">
-									<a class="permalink" href="">{{ post.date|date('Y-m-d') }}</a>
+									<a class="permalink" href="" >{{ post.date|date('Y-m-d') }}</a>
 								</span>
 								<span class="post-tag">
 									<a class="tag" href="">{{ post.tag }}</a>
@@ -29,7 +29,7 @@
 								<div class="post-more">
 									{{ post.more }}
 								</div>
-								<a class="postMore" href="javascrpt:;" data-show="false">......查看全文</a>
+								<a class="postMore" href="javascript:void(0);" data-show="false">......查看全文</a>
 							{% else %}
 								{{ post.content }}
 							{% endif %}

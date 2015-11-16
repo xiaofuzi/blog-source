@@ -2,10 +2,10 @@ title: css3简易魔方绘制
 date: 2015-11-11 14:08:10
 tags:
 archives: pl
-excerpt: "This is my post excerpt"
 ---
 
 简易魔方效果：[点击查看](/other/3dCube/index.html)
+在线编辑实例：[点我开始制作](/liveCoding/demo/index.html)
 
 ## 立方体绘制
 

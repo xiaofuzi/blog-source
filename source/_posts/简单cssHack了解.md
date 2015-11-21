@@ -1,4 +1,4 @@
-title: 简单cssHack了解
+title: 简单cssHack了解，让ie支持H5、css3
 date: 2015-11-13 15:08:09
 archives: pl
 tags: cssHack
@@ -124,5 +124,30 @@ width: 100px\9\0;	/*在ie9/10可以识别*/
 按如上的设置方式，就对ie8做了单独的处理。
 
 
+## 如何让ie支持H5(包括ie6)
 
+下载地址1：https://github.com/afarkas/html5shiv
+下载地址2：[html5shiv.min.js](/js/html5shiv.min.js)
+使用方式，在页面头部添加如下代码：
+
+```html
+<!–[if IE]>  
+<script src=”[html5.js]”></script>  
+<![endif]–>
+```
+这里的src引入的是我们下载的htmlshiv.js文件。
+
+
+## 如何让ie支持CSS3属性
+
+借助于ie-css3.htc,[点我下载](/css/ie-css3.htc)
+
+语法：
+
+```css
+/*给body添加后，body下的子元素都可以使用*/
+body{
+	behavior: url(ie-css3.htc);
+}
+```
 

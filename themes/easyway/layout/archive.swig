@@ -17,6 +17,11 @@
 					{% endif %}
 				{% endfor %}
 			</ul>
+			<nav class="pagination">
+				{% if page.total > 1 %}
+					{{ paginator(options) }}
+				{% endif %}
+			</nav>
 		</div>
 	</div>
 {% endblock %}

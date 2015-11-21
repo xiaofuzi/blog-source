@@ -17,7 +17,10 @@
 							<a class="permalink" href="javascrpt:void(0);">{{ page.date|date('Y-m-d') }}</a>
 						</span>
 						<span class="post-tag">
-							<a class="tag" href="">{{ page.tag }}</a>
+							{% set tags = page.tags %}
+							{% for t in tags %}
+								<a class="tag" href="{{t.permalink}}" target="_blank">{{ t.name }}</a>
+							{% endfor %}
 						</span>
 					</div>
 				</header>

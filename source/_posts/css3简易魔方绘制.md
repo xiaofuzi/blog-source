@@ -72,7 +72,7 @@ transform: rotateZ(Xdeg);[以Z为轴进行旋转]
 
 注：示例并未做兼容处理
 1 前后两个面经Z轴偏移，前为正（向屏幕外，用户的方向偏移），后为负得到
-2 左右两个面经旋转得到
+2 左右两个面经旋转偏移得到
 
 同时设置旋转和偏移时，属性的顺序会影响最终的效果
 <div class="margin-auto" style="height: 150px;">
@@ -94,9 +94,12 @@ transform: rotateZ(Xdeg);[以Z为轴进行旋转]
 ```
 
 ```css
-position: absolute;
+.square-wrapper,
+.square-wrapper > div{
+	position: absolute;
 	width: 100px;
 	height: 100px;
+}
 
 /*立体实现*/
 .square-wrap{

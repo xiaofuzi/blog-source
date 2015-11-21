@@ -17,7 +17,10 @@
 									<a class="permalink" href="" >{{ post.date|date('Y-m-d') }}</a>
 								</span>
 								<span class="post-tag">
-									<a class="tag" href="">{{ post.tag }}</a>
+									{% set tags = post.tags %}
+									{% for t in tags %}
+										<a class="tag" href="{{t.permalink}}" target="_blank">{{ t.name }}</a>
+									{% endfor %}
 								</span>
 							</div>
 						</header>

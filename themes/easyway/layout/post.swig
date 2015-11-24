@@ -27,6 +27,14 @@
 				<div class="post-body">
 					{{ page.content }}
 				</div>
+				<div class="post-nav">
+					{% if page.prev.path != null %}
+						<span class="prev"><a href="{{ url_for(page.prev.path) }}">Prev</a></span>
+					{% endif %}
+					{% if page.next.path != null %}
+						<span class="next"><a href="{{ url_for(page.next.path) }}">Next</a></span>
+					{% endif %}
+				</div>
 				<!-- 多说评论框 start -->
 					<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ url_for(page.path) }}"></div>
 				<!-- 多说评论框 end -->

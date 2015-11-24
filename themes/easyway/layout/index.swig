@@ -37,6 +37,7 @@
 								{{ post.content }}
 							{% endif %}
 						</div>
+						<hr>
 				 	{% endif %}
 				{% endfor %}
 			</article>

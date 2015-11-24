@@ -5,7 +5,12 @@ archives: pl
 ---
 
 <style>img{max-width:100%;}</style>
-<img data-src="/img/learn-programm.png" alt="oh,man.I just want to learn programm video game!">
+
+<a class="text-center" href="http://www.ccs.neu.edu/home/matthias/BTLS/"><img data-src="/img/the-lillte-scheme.jpg" alt="the-little-scheme"></a>
+the little scheme 是一本小人书，却很精妙。阅读它可以让你对编程语言有更好的认识，也能增加你对算法的理解(你真的会用递归了吗？)。
+说明：该书籍使用scheme来作为讲解的语言，scheme是lisp的一门方言，语法上比较特别的是S表达式。看到S表达式是不是感觉和语法树一般，一开始估计不是很习惯S表达式，但静下心来就会发现其实是一种很好理解也很简洁的语法。Good Luck!
+
+<img class="text-center" data-src="/img/learn-programm.png" alt="oh,man.I just want to learn programm video game!">
 oh,man.I just want to learn programm video game!
 
 

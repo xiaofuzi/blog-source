@@ -143,6 +143,10 @@ figure{
     color: red;
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 /*先将待加载图片隐藏，加载完成后显示*/
 img {

@@ -1,6 +1,6 @@
 title: 静态服务器搭建
 date: 2015-11-17 14:01:16
-tags: php
+tags: [php, tool]
 archives: pl
 ---
 <style>

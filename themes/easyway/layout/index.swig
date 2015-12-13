@@ -6,8 +6,11 @@
 	<div id="pageWrapper">
 		<div id="mainContent">
 			<article class="post">
-				{% for post in page.posts %}
-				 	{% if loop.index < 5 %}	
+			<div class="items-wrap">
+				{% set posts = site.posts %}
+				{% for post in posts %}
+				 	{% if post.topper == true %}
+				 	<div class="post-item">	
 						<header>
 							<h1>
 								<a href="{{ url_for(post.path) }}" target="_blank">{{ post.title }}</a>
@@ -38,8 +41,13 @@
 							{% endif %}
 						</div>
 						<hr>
+						</div>
 				 	{% endif %}
 				{% endfor %}
+				</div>
+				<p class="text-center">
+					<a id="look_more" class="warning-btn" href="/archives">查看更多</a>
+				</p>
 			</article>
 		</div>
 	</div>

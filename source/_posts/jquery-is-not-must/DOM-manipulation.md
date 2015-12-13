@@ -1,6 +1,7 @@
 title: jQuery is not must for us——DOM操作
 date: 2015-11-24 12:50:32
 tags: jquery
+archives: pl
 ---
 
 通过浏览器提供的DOM API,我们可以完成对页面元素的增删改查移动等。

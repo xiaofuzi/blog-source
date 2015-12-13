@@ -1,6 +1,7 @@
 title: jQuery is not must for us——异步请求
 date: 2015-11-24 12:40:32
 tags: jquery
+archives: pl
 ---
 
 jQuery对象只是对XMLHttpRequest对象进行了封装，真正的异步请求还是由浏览器发起的。

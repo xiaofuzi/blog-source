@@ -5,6 +5,14 @@
 {% endblock %}
 
 {% block content %}
+	<style>
+		body{
+			background: #f9f9f9;
+		}
+		#headerWrapper{
+			background: #ffffff;
+		}
+	</style>
 	<div id="pageWrapper">
 		<div id="mainContent">
 			<article class="post">

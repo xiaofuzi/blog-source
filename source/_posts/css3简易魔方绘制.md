@@ -1,6 +1,6 @@
 title: css3简易魔方绘制
 date: 2015-11-11 14:08:10
-tags:
+tags: css
 archives: pl
 ---
 
@@ -102,7 +102,7 @@ transform: rotateZ(Xdeg);[以Z为轴进行旋转]
 }
 
 /*立体实现*/
-.square-wrap{
+.square-wrapper{
 	margin-top: 20px;
 	transform-style: preserve-3d;
 	animation: square-animation 5s infinite;

@@ -1,7 +1,6 @@
 title: Javascript-类-模块化
 date: 2015-12-08 15:06:36
 tags: [js]
-topper: true
 ---
 
 <div class="text-center" style="background:#414141;font-size: 48px;padding:40px 0;color:#ffffff;">Learn OOP -prototype<p style="font-size: 16px;">这里并不吹嘘面向对象有多牛，但作为现在主流的一种编程范式，我们有必要去了解。</p></div>

@@ -10,9 +10,9 @@
 				{% for post in posts %}
 						<li>
 							<a href="{{ url_for(post.path) }}" target="_blank">{{ post.title }}</a>
-							<p class="post-time">
+							<div class="post-time">
 								发表时间：{{ post.date|date('Y-m-d') }}
-							</p>
+							</div>
 						</li>
 				{% endfor %}
 			</ul>

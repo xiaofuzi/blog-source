@@ -4,8 +4,8 @@ date: 2015-11-03 14:14:36
 
 <div class="websites-body">
 <h2 id="websitesNav">Web网址导航</h2>
-[w3c官网](http://www.w3.org/)[w3c中国](www.chinaw3c.org)[W3C的各类技术标准](http://www.chinaw3c.org/standards.html)[资源归档](/other/)
-[javascript之父](https://brendaneich.com/)[粉丝日志](http://blog.fens.me/)[王垠](http://www.yinwang.org/)[阮一峰](http://www.ruanyifeng.com/blog/)[冯大辉](http://dbanotes.net/)[码农周刊](http://weekly.manong.io/issues/)
+[w3c官网](http://www.w3.org/)[w3c中国](www.chinaw3c.org)[文集](/other/)
+[javascript之父](https://brendaneich.com/)[粉丝日志](http://blog.fens.me/)[王垠](http://www.yinwang.org/)[阮一峰](http://www.ruanyifeng.com/blog/)[码农周刊](http://weekly.manong.io/issues/)
 
 
 
@@ -28,6 +28,6 @@ date: 2015-11-03 14:14:36
 
 
 
-<h2>my friends:</h2>
-[李金龙](http://www.lijinlong.cc/)[任远](http://winterren.github.io)
+<div style="display:none;"><h2>my friends:</h2>
+[李金龙](http://www.lijinlong.cc/)[任远](http://winterren.github.io)</div>
 </div>
